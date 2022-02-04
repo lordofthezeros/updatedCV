@@ -1,0 +1,166 @@
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-item {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transition: transform 0.2s ease 0s;
+}
+
+.navbar-item:hover {
+    transform: scale(1.1);
+}
+
+.display-6,
+.lead {
+    font-family: Helvetica, sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+.display-6 {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgb(58, 58, 58);
+}
+
+.btn-primary {
+    background-color: #6DA1A1;
+    border-color: #6DA1A1;
+}
+
+.btn-primary:hover {
+    background-color: #558080;
+    border-color: #558080;
+}
+
+#about {
+    background-color: #6DA1A1;
+    color: white;
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+    min-height: 30rem
+}
+
+.feature {
+    text-align: left;
+}
+
+.feature h2 {
+    font-family: 'Oswald', sans-serif;
+    padding: 0.5rem 0 1rem;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 1rem 15% 0;
+    color: white;
+    background-color: #6DA1A1;
+}
+
+.profile-card-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.profile-header {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.profile-info {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.profile-card-item {
+    max-width: 12.5rem;
+}
+
+.profile-card-item-list {
+    padding: 0;
+    list-style: none;
+}
+
+.profile-card-item-list-item {
+    margin-bottom: 0.5srem;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+.profile-card-item-list-item i {
+    margin-right: 1rem;
+}
+
+.profile-card-item-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-card-item-list-item a:hover {
+    color: #558080;
+}
+
+#employment,
+#education
+ {
+    text-align: center;
+    min-height: 30rem;
+    color: rgb(58, 58, 58);
+    padding: 3rem 0 0;
+    font-family: Helvetica, sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+
+.employment-history-card {
+    padding: 2rem 15%;
+}
+
+.carousel-item {
+    text-align: left;
+}
+
+#education {
+    background-color: #6DA1A1;
+    color: white;
+}
+
+#references {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#references .row {
+    padding: 0 15%;
+}
+
+#references .profile-header {
+    margin: 2rem;
+}
+
+#references .profile-card-item-list-item {
+    text-align: center;
+}
+
+#references .profile-card-item-list-item a {
+    color: rgb(58, 58, 58);
+}
+
+#references .profile-card-item-list-item a:hover {
+    color: #558080;
+}
+ .card {
+     font-family: Helvetica, sans-serif;
+ }
